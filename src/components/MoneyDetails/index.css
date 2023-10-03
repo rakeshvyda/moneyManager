@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.balance-income-expense-container {
+  background-color: #ecfccb;
+  width: 30%;
+  height: 120px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 28px;
+  border: 1px solid #84cc16;
+  margin-bottom: 20px;
+  margin-right: 12px;
+}
+.back-blue {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.back-purple {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+@media screen and (max-width: 575px) {
+  .balance-income-expense-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.details-image {
+  height: 60px;
+  width: 60px;
+  opacity: 1;
+}
+.balance-details-container {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding-left: 25px;
+  opacity: 1;
+}
+.balance-tag {
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  font-family: 'Roboto';
+}
+.balance {
+  font-size: 18px;
+  font-weight: bold;
+  color: #475569;
+  font-family: 'Roboto';
+}

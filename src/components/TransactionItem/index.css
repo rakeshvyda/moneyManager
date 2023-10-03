@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.transaction-container {
+  height: 50px;
+  width: 96%;
+  border: 1px solid #d7dfe9;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 2px;
+  align-self: center;
+  margin-right: 20px;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.delete-image {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.trasaction-title-value {
+  font-size: 14px;
+  color: #7e858e;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 60px;
+}
+
+.tag-2 {
+  margin-right: 50px;
+}
+.tag-3 {
+  margin-right: 165px;
+}
+@media screen and (max-width: 575px) {
+  .trasaction-title-value {
+    font-size: 14px;
+    color: #7e858e;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-right: 30px;
+  }
+
+  .tag-2 {
+    margin-right: 24px;
+    padding-left: 0px;
+  }
+
+  .tag-3 {
+    margin-right: 20px;
+    padding-left: 0px;
+  }
+}
